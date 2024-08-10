@@ -24,10 +24,11 @@ export function Header (){
                     <Link href="/product">
                         Caradapio
                     </Link>
-
-                    <button onClick={signOut}>
-                        <FiLogOut color='#fff' size={24} />
-                    </button>
+                    <form onClick={signOut}>
+                        <button type='submit'>
+                            <FiLogOut color='#fff' size={24} />
+                        </button>
+                    </form>
                 </nav>
 
             </div>

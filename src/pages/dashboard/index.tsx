@@ -1,6 +1,7 @@
 import {canSSRAuth} from '../../utils/canSSRAuth'
 import Head from 'next/head'
 import {Header} from '../../components/Header'
+import { Orders} from '@/components/Orders'
 
 export default function Dashboard(){
     return (
@@ -8,12 +9,9 @@ export default function Dashboard(){
             <Head>
                 <title>Painel</title>
             </Head>
-            <div>
-                <Header/>
+            <Header/>
+            <Orders />
 
-                <h1>Painel</h1>
-
-            </div>
         </>
 
     )
